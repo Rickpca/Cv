@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.main{
+    width: 800px;
+    height: 1000px;
+    margin: 100px auto;
+    background-color: #f4f7ff;
+    box-shadow: 5px 21px 20px 20px #3d3f4238;
+}
+
+.left{
+    background-color: #000;
+    width: 250px;
+    height: 1000px;
+    float: left;
+}
+
+.perfil{
+    overflow: hidden;
+    position: relative;
+}
+
+.box-azul{
+    background-color:#2fb7fe;
+    width: 257px;
+    height: 407px;
+    margin-left: -100px;
+    transform: rotateZ(48deg);
+    margin-top: -178px;
+}
+
+.perfil-img{
+    position: absolute;
+    z-index: 9;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    border:  3px solid #d8dce4;
+}
+
+.nombre{
+    color: #d8dce4;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -34px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.nombre span{
+    color:#2fb7fe;
+}
+
+.info{
+    margin-top: 50px;
+}
+
+.estudiante{
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7px;
+    border-top: 1px solid #d8dce4;
+    border-bottom: 1px solid #d8dce4;
+    margin-top: 11px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.titulo{
+    color: #fff;
+    margin: 0 auto;
+    border-top: 1px solid #d8dce4;
+    border-bottom: 1px solid #d8dce4;
+    width: 180px;
+    font-size: 16px;
+    margin-top: 11px;
+    padding: 2px;
+}
+
+.p1{
+    color: #fff;
+    width: 184px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 14px;
+}
+.p1 span{
+    font-size: 12px;
+}
+
+.span1 img{
+    background-color: #fff;
+    width: 30px;
+    padding: 6px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 16px;
+}
+.clear{
+    clear: both
+}
+.right{
+    padding: 40px 30px;
+    background-color: #fff;
+    width: 68%;
+    float: left;
+    height: 1000px;
+}
+
+.p2{
+    margin: 0 auto;
+    padding: 2px;
+    border-top: 1px solid #d8dce4;
+    border-bottom: 1px solid #d8dce4;
+    color: #000;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 10px;
+    line-height: 18px;
+}
+
+.p3{
+    margin-top: 20px;
+    color: #000;
+    font-weight: bold;
+    text-align: justify;
+    word-spacing: -4px;
+}
+
+.p4{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: justify;
+}
+.p5{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+.fecha{
+    width: 24%;
+    float: left;
+}
+
+.trabajo{
+    width: 75%;
+    float: left;
+}
+
+.dato{
+    margin-top: 20px;
+	margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.box{
+    width: 50%;
+    float: left;
+    padding: 20px 20px 20px 0;
+}
+
+.progress {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+}
+
+.progress:after {
+    content: '';
+    display: block;
+    background-color: #2fb7fe;
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+}
+.progress1 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+}
+
+.progress1:after {
+    content: '';
+    display: block;
+    background-color: #2fb7fe;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+.progress2 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+}
+
+.progress2:after {
+    content: '';
+    display: block;
+    background-color: #2fb7fe;
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.progress3 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+}
+
+.progress3:after {
+    content: '';
+    display: block;
+    background-color: #2fb7fe;
+    width: 30%;
+    height: 100%;
+    border-radius: 9px;
+}
